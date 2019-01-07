@@ -20,13 +20,11 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.org.foi.uzdiz.dzunec.dz2.Help
 
         public static List<string> listaVozilaZaObradu;
 
+        public static SingletonParametri parametri;
 
-        public Odvoz()
+        public static void ProvediNaredbe(SingletonParametri singParametri)
         {
-        }
-
-        public static void ProvediNaredbe()
-        {
+            parametri = singParametri;
             foreach (var dispecer in Citac.ListaDispecer)
             {
                 string naredba = dispecer.Komanda;
@@ -375,8 +373,19 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.org.foi.uzdiz.dzunec.dz2.Help
                     if (vozilo.Id == idVozila)
                     {
                         vozilo.Status = "Pripremljeno";
+                        if (vozilo.Tip == 0)
+                        {
+                            vozilo.CiklusKapacitet = int.Parse(parametri.DohvatiParametar("kapacitetDizelVozila"));
+                            vozilo.CiklusPunjenja = int.Parse(parametri.DohvatiParametar("punjenjeDizelVozila"));
+                        }
+                        else
+                        {
+                            vozilo.CiklusKapacitet = int.Parse(parametri.DohvatiParametar("kapacitetElektroVozila"));
+                            vozilo.CiklusPunjenja = int.Parse(parametri.DohvatiParametar("punjenjeElektroVozila"));
+                        }
                         listaVozilaZaSkupljanje.Add(vozilo);
                         IspisKonzola.IspisKonzola.IspisUvjetni("Vozilo " + vozilo.Id + " je dodano u listu pripremljenih vozila!");
+                       
                     }
                 }
             }

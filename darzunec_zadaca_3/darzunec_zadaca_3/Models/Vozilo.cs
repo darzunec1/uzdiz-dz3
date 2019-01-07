@@ -24,6 +24,10 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.Models
 
         public string Status { get; set; }
 
+        public int CiklusKapacitet { get; set; }
+
+        public int CiklusPunjenja { get; set; }
+
         public Iterator Iterator { get; set; }
 
         public List<Vozaci> Vozaci = new List<Vozaci>();
