@@ -2340,5 +2340,260 @@ Vozilo v1 je dodano u listu pripremljenih vozila!
 Vozilo v2 je dodano u listu pripremljenih vozila!
 Vozilo v3 je dodano u listu pripremljenih vozila!
 Vozilo v4 je dodano u listu pripremljenih vozila!
-- - - > NAREDBA:IZLAZ 
+- - - > NAREDBA: Status svih vozila
 
+Ispis statusa sih vozila: 
+Vozilo: v1 staklarko 1 Status:Pripremljeno Popunjenost: 0 Dostupno: 4000
+Vozilo: v2 papirko 1   Status:Pripremljeno Popunjenost: 0 Dostupno: 3000
+Vozilo: v3 metalko 1   Status:Pripremljeno Popunjenost: 0 Dostupno: 5000
+Vozilo: v4 biotko 1    Status:Pripremljeno Popunjenost: 0 Dostupno: 3000
+Vozilo: v5 mješanko 1  Status:Parking Popunjenost: 0 Dostupno: 4000
+Vozilo: v6 mješanko 2  Status:Parking Popunjenost: 0 Dostupno: 5000
+Vozilo: v7 mješanko 3  Status:Parking Popunjenost: 0 Dostupno: 3000
+- - - > NAREDBA:Vozači 
+
+Ispis statusa svih vozača: 
+
+                         Vozač                        Status
+                        --------------------------------------
+                          pero                       Aktivni
+                           ivo                       Aktivni
+                          jura                       Aktivni
+                         borko                       Aktivni
+                        tvrtko                       Aktivni
+                          kiki                       Aktivni
+                         vesna                       Aktivni
+                         rajka                       Aktivni
+                          zoki                       Aktivni
+                          sven                       Aktivni
+                          luka                       Aktivni
+                         hinko                       Aktivni
+                          blaž                       Aktivni
+                          fran                       Aktivni
+                          dudo                       Aktivni
+                          viki                       Aktivni
+                          miki                       Aktivni
+
+- - - > NAREDBA: Godišnji odmor
+
+- - - > NAREDBA: Vozila krećeju pokupljati otpad
+
+-----------------------------------------------------------------------
+0 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 35.09
+-----------------------------------------------------------------------
+1 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 19.16
+-----------------------------------------------------------------------
+2 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 17.06
+-----------------------------------------------------------------------
+3 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 6.26
+- - - > NAREDBA: Kvar vozila
+
+Vozilo v2 papirko 1    Status: Kvar
+- - - > NAREDBA: Vozila krećeju pokupljati otpad
+
+-----------------------------------------------------------------------
+4 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 74.29001
+-----------------------------------------------------------------------
+5 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 32.57
+-----------------------------------------------------------------------
+6 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 36.36
+-----------------------------------------------------------------------
+7 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 10.21
+-----------------------------------------------------------------------
+8 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 89.51001
+-----------------------------------------------------------------------
+9 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 37.95
+-----------------------------------------------------------------------
+10 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 43.44
+-----------------------------------------------------------------------
+11 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 16.21
+- - - > NAREDBA: Preuzmi vozilo
+
+- - - > NAREDBA: Status svih vozila
+
+Ispis statusa sih vozila: 
+Vozilo: v1 staklarko 1 Status:Pripremljeno Popunjenost: 89.51001 Dostupno: 3910.49
+Vozilo: v2 papirko 1   Status:Kvar Popunjenost: 37.95 Dostupno: 2962.05
+Vozilo: v3 metalko 1   Status:Pripremljeno Popunjenost: 43.44 Dostupno: 4956.56
+Vozilo: v4 biotko 1    Status:Pripremljeno Popunjenost: 16.21 Dostupno: 2983.79
+Vozilo: v5 mješanko 1  Status:Parking Popunjenost: 0 Dostupno: 4000
+Vozilo: v6 mješanko 2  Status:Parking Popunjenost: 0 Dostupno: 5000
+Vozilo: v7 mješanko 3  Status:Parking Popunjenost: 0 Dostupno: 3000
+- - - > NAREDBA: Vozila krećeju pokupljati otpad
+
+-----------------------------------------------------------------------
+12 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 113.52
+-----------------------------------------------------------------------
+13 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 55.29
+-----------------------------------------------------------------------
+14 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 49.99
+-----------------------------------------------------------------------
+15 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 19.51
+-----------------------------------------------------------------------
+16 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 119.95
+-----------------------------------------------------------------------
+17 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 60.1
+-----------------------------------------------------------------------
+18 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 58.86
+-----------------------------------------------------------------------
+19 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 28.7
+- - - > NAREDBA: Status svih vozila
+
+Ispis statusa sih vozila: 
+Vozilo: v1 staklarko 1 Status:Pripremljeno Popunjenost: 119.95 Dostupno: 3880.05
+Vozilo: v2 papirko 1   Status:Kvar Popunjenost: 60.1 Dostupno: 2939.9
+Vozilo: v3 metalko 1   Status:Pripremljeno Popunjenost: 58.86 Dostupno: 4941.14
+Vozilo: v4 biotko 1    Status:Pripremljeno Popunjenost: 28.7 Dostupno: 2971.3
+Vozilo: v5 mješanko 1  Status:Parking Popunjenost: 0 Dostupno: 4000
+Vozilo: v6 mješanko 2  Status:Parking Popunjenost: 0 Dostupno: 5000
+Vozilo: v7 mješanko 3  Status:Parking Popunjenost: 0 Dostupno: 3000
+- - - > NAREDBA: Otkaz
+
+- - - > NAREDBA: Bolovanje
+
+- - - > NAREDBA: Dodavanje novog vozača
+
+Dodani su novi vozači!
+- - - > NAREDBA:Vozači 
+
+Ispis statusa svih vozača: 
+
+                         Vozač                        Status
+                        --------------------------------------
+                          pero                Godišnji odmor
+                           ivo                Godišnji odmor
+                          jura                       Aktivni
+                         borko                       Aktivni
+                        tvrtko                       Aktivni
+                          kiki                       Aktivni
+                         vesna                       Aktivni
+                         rajka                     Bolovanje
+                          zoki                       Aktivni
+                          sven                       Aktivni
+                          luka                         Otkaz
+                         hinko                       Aktivni
+                          blaž                       Aktivni
+                          fran                         Otkaz
+                          dudo                       Aktivni
+                          viki                       Aktivni
+                          miki                         Otkaz
+                          nika                          Novi
+                          jana                          Novi
+
+- - - > NAREDBA: Pripremi vozila
+
+Vozilo v2 je dodano u listu pripremljenih vozila!
+- - - > NAREDBA: Pražnjenje vozila
+
+- - - > NAREDBA: Status svih vozila
+
+Ispis statusa sih vozila: 
+Vozilo: v1 staklarko 1 Status:Pripremljeno Popunjenost: 119.95 Dostupno: 3880.05
+Vozilo: v2 papirko 1   Status:Pripremljeno Popunjenost: 60.1 Dostupno: 2939.9
+Vozilo: v3 metalko 1   Status:Pripremljeno Popunjenost: 58.86 Dostupno: 4941.14
+Vozilo: v4 biotko 1    Status:Pripremljeno Popunjenost: 28.7 Dostupno: 2971.3
+Vozilo: v5 mješanko 1  Status:Parking Popunjenost: 0 Dostupno: 4000
+Vozilo: v6 mješanko 2  Status:Parking Popunjenost: 0 Dostupno: 5000
+Vozilo: v7 mješanko 3  Status:Parking Popunjenost: 0 Dostupno: 3000
+- - - > NAREDBA: Vozila krećeju pokupljati otpad
+
+-----------------------------------------------------------------------
+20 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 155.27
+-----------------------------------------------------------------------
+21 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 73.56001
+-----------------------------------------------------------------------
+22 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 78.93999
+-----------------------------------------------------------------------
+23 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 31.26
+-----------------------------------------------------------------------
+24 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 88.88
+-----------------------------------------------------------------------
+25 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 184.51
+-----------------------------------------------------------------------
+26 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 97.57001
+-----------------------------------------------------------------------
+27 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 86.92999
+-----------------------------------------------------------------------
+28 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 37.88
+-----------------------------------------------------------------------
+29 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 112.8
+-----------------------------------------------------------------------
+30 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 220.09
+-----------------------------------------------------------------------
+31 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 123.33
+-----------------------------------------------------------------------
+32 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 103.76
+-----------------------------------------------------------------------
+33 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 39.9
+-----------------------------------------------------------------------
+34 CIKLUS Vozilo papirko 1   Nosivost: 3000 Pokupilo: 127.55
+-----------------------------------------------------------------------
+35 CIKLUS Vozilo staklarko 1 Nosivost: 4000 Pokupilo: 223.8
+-----------------------------------------------------------------------
+36 CIKLUS Vozilo metalko 1   Nosivost: 5000 Pokupilo: 105.91
+-----------------------------------------------------------------------
+37 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 49.76
+-----------------------------------------------------------------------
+38 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 51.18
+-----------------------------------------------------------------------
+39 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 55.1
+-----------------------------------------------------------------------
+40 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 62.36
+-----------------------------------------------------------------------
+41 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 67.57
+-----------------------------------------------------------------------
+42 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 70.58
+-----------------------------------------------------------------------
+43 CIKLUS Vozilo biotko 1    Nosivost: 3000 Pokupilo: 79.63
+- - - > NAREDBA: Pražnjenje vozila
+
+- - - > NAREDBA: Pripremi vozila
+
+Vozilo v2 je dodano u listu pripremljenih vozila!
+Vozilo v5 je dodano u listu pripremljenih vozila!
+Vozilo v6 je dodano u listu pripremljenih vozila!
+Vozilo v7 je dodano u listu pripremljenih vozila!
+- - - > NAREDBA: Vozila krećeju pokupljati otpad
+
+- - - > NAREDBA: Status svih vozila
+
+Ispis statusa sih vozila: 
+Vozilo: v1 staklarko 1 Status:Pripremljeno Popunjenost: 223.8 Dostupno: 3776.2
+Vozilo: v2 papirko 1   Status:Pripremljeno Popunjenost: 127.55 Dostupno: 2872.45
+Vozilo: v3 metalko 1   Status:Pripremljeno Popunjenost: 105.91 Dostupno: 4894.09
+Vozilo: v4 biotko 1    Status:Pripremljeno Popunjenost: 79.63 Dostupno: 2920.37
+Vozilo: v5 mješanko 1  Status:Pripremljeno Popunjenost: 0 Dostupno: 4000
+Vozilo: v6 mješanko 2  Status:Pripremljeno Popunjenost: 0 Dostupno: 5000
+Vozilo: v7 mješanko 3  Status:Pripremljeno Popunjenost: 0 Dostupno: 3000
+- - - > NAREDBA:Vozači 
+
+Ispis statusa svih vozača: 
+
+                         Vozač                        Status
+                        --------------------------------------
+                          pero                Godišnji odmor
+                           ivo                Godišnji odmor
+                          jura                       Aktivni
+                         borko                       Aktivni
+                        tvrtko                       Aktivni
+                          kiki                       Aktivni
+                         vesna                       Aktivni
+                         rajka                     Bolovanje
+                          zoki                       Aktivni
+                          sven                       Aktivni
+                          luka                         Otkaz
+                         hinko                       Aktivni
+                          blaž                       Aktivni
+                          fran                         Otkaz
+                          dudo                       Aktivni
+                          viki                       Aktivni
+                          miki                         Otkaz
+                          nika                          Novi
+                          jana                          Novi
+
+--------------------------------------------------): 
+Vlastita funkcionalnost (provjera cijene spremnika): 
+Nabavna cijena kontejnera: 8687.99kn
+Cijena kontejnera s jamstvom od 5 godina iznosi: 9588.31kn
+Cijena kontejnera s nožnim otvaranjem iznosi: 9520.52kn
+Cijena kontejnera s otvaranjem na senzor iznosi: 11278.52kn

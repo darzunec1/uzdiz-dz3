@@ -17,6 +17,7 @@
     <Folder Include="Log\" />
     <Folder Include="Models\" />
     <Folder Include="Singleton\" />
+    <Folder Include="Command\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\Methods\UnosKorisnika.cs" />

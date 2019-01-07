@@ -16,6 +16,10 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.org.foi.uzdiz.dzunec.dz2.Help
 
         public static int ciklus = 0;
 
+        public static string podrucjeZaObradu;
+
+        public static List<string> listaVozilaZaObradu;
+
 
         public Odvoz()
         {
@@ -63,6 +67,7 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.org.foi.uzdiz.dzunec.dz2.Help
                     case "OBRADI":
                         IspisKonzola.IspisKonzola.IspisUvjetni("- - - > NAREDBA: Odabir područja za obradu");
                         IspisKonzola.IspisKonzola.IspisUvjetni("");
+                        OdabirPodrucjaZaObradu(dispecer.lista1, dispecer.lista2);
                         break;
                     case "GODIŠNJI ODMOR":
                         IspisKonzola.IspisKonzola.IspisUvjetni("- - - > NAREDBA: Godišnji odmor");
@@ -104,6 +109,11 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.org.foi.uzdiz.dzunec.dz2.Help
                         break;
                 }
             }
+        }
+
+        private static void OdabirPodrucjaZaObradu(List<string> lista1, List<string> lista2)
+        {
+
         }
 
         private static void PreuzmiVozilo(List<string> lista1, List<string> lista2)
@@ -196,7 +206,7 @@ namespace org.foi.uzdiz.dzunec.dz2.dzunec_zadaca_2.org.foi.uzdiz.dzunec.dz2.Help
             IspisKonzola.IspisKonzola.IspisUvjetni("Ispis statusa sih vozila: ");
             foreach (var vozilo in Citac.ListaVozila)
             {
-                IspisKonzola.IspisKonzola.IspisUvjetni("Vozilo: " + vozilo.Id + " " + vozilo.Naziv + " Status:" + vozilo.Status);
+                IspisKonzola.IspisKonzola.IspisUvjetni("Vozilo: " + vozilo.Id + " " + vozilo.Naziv + " Status:" + vozilo.Status + " Popunjenost: " + vozilo.Popunjenost + " Dostupno: " + vozilo.Dostupno);
             }
         }
 
